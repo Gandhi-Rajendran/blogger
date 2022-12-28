@@ -1,0 +1,31 @@
+.blog-container {
+  width: 95%;
+  margin: 3% auto;
+  padding: 3%;
+  border-radius: 12px;
+  background-color: darkgray;
+}
+.blog-detail > h2 {
+  margin: 0%;
+}
+.blog-detail button {
+  font-size: 15px;
+  background-color: darkblue;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+}
+.blog-detail button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(0.95);
+}
+/* after the Link  */
+.blog-list {
+  color: white;
+  text-decoration: none;
+}
+.blog-list:hover {
+  color: black;
+}

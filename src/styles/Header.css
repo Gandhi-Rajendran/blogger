@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  background-color: darkblue;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 12px;
+  transition: all 300ms ease-in-out;
+}
+.header a:hover {
+  border-bottom: 1px solid white;
+}

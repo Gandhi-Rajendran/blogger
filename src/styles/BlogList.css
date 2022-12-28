@@ -1,0 +1,20 @@
+.main {
+  width: 80%;
+  margin: 0% auto;
+}
+.main h1 {
+  margin: 0%;
+  padding: 12px 0;
+}
+.blog-card {
+  background-color: darkblue;
+  border-radius: 12px;
+  margin: 12px;
+  padding: 15px;
+  transition: all 10ms ease-in-out;
+}
+.blog-card:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(0.98);
+}
