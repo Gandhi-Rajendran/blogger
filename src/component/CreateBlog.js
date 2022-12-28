@@ -20,7 +20,7 @@ const CreateBlog = () => {
       return;
     }
     const blog = { title, author, description };
-    fetch("http://localhost:9000/blogs", {
+    fetch("https://blogger-hfr8.onrender.com/blogs/", {
       method: "POST",
       body: JSON.stringify(blog),
       headers: { "content-type": "application/json" },

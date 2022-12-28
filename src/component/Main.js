@@ -3,7 +3,9 @@ import BlogList from "./BlogList";
 import useFetch from "../useFetch";
 
 const Main = () => {
-  const { blogs, loading, error } = useFetch("http://localhost:9000/blogs");
+  const { blogs, loading, error } = useFetch(
+    "https://blogger-hfr8.onrender.com/blogs/"
+  );
   return (
     <div className="main">
       {loading && <h3>Loading....</h3>}

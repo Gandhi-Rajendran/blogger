@@ -6,15 +6,15 @@ import "../styles/BlogDetails.css";
 const BlogDetails = () => {
   const { id } = useParams();
   const { blogs, loading, error } = useFetch(
-    "http://localhost:9000/blogs/" + id
+    "https://blogger-hfr8.onrender.com/blogs/" + id
   );
   const navigate = useNavigate();
   const deleteHandler = () => {
-    fetch("http://localhost:9000/blogs/" + blogs.id, { method: "DELETE" }).then(
-      () => {
-        navigate("/", { replace: true });
-      }
-    );
+    fetch("https://blogger-hfr8.onrender.com/blogs/" + blogs.id, {
+      method: "DELETE",
+    }).then(() => {
+      navigate("/", { replace: true });
+    });
   };
   return (
     <div className="blog-container">
